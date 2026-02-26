@@ -3,9 +3,9 @@ import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 
 
-//const API_URL = "https://posts-app-seven-omega.vercel.app/posts"; // backend en Vercel
+const API_URL = "https://posts-app-seven-omega.vercel.app/posts"; // backend en Vercel
 
-const API_URL = "http://localhost:3000/posts"; // Cambia a tu URL de Vercel después
+//const API_URL = "http://localhost:3000/posts"; // Cambia a tu URL de Vercel después
 
 export default function CreatePost() {
   const [form, setForm] = useState({ imageUrl: "", title: "", description: "" });
